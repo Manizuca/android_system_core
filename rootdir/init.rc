@@ -31,6 +31,8 @@ on early-init
     chown system system /selinux/commit_pending_bools
     chown system system /sys/fs/selinux/commit_pending_bools
 
+    import /init.b2g.rc
+
 on init
 
 sysclktz 0
